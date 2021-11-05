@@ -30,8 +30,8 @@ def consultaCEP(cep):
         return "-"
 
 
-inputFile = open("result_resp_CEPS.csv", "r")
-outputFile = open("cep_bairro_final.csv", "wb+")
+inputFile = open("result_resp2017-2019_flops.csv", "r")
+outputFile = open("result_resp2017-2019_flops_bairros", "wb+")
 dados = list(csv.reader(inputFile))
 
 cabecalho = dados[0]
